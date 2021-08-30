@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#top {
+    border: 0ch;
+    padding: 10px;
+   
+    background-color: rgba(9, 96, 136, 0.808);
+
+}
+.navbar-toggle {
+    background-color: rgb(34, 2, 9);
+}
+.icon-bar {
+    background-color: cyan;
+}
+.menu-item {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: 1px solid black;
+    border: 1px solid black;
+    width: 100%;
+    border: 100%;
+    border-left: 0;
+    border-right: 0;
+}
+.collapse {
+    width: 100%;
+}
+#post {
+    border-top: 0;
+    border-bottom: 0;
+}
+   
+    
+.navbar-brand {
+    font-family: 'Cairo', sans-serif;
+    font-size: 3.5em;
+    margin-left: 0%;
+    color: rgba(9, 102, 109, 0.767);
+}
+.navbar-brand:hover {
+    text-shadow: crimson;
+}
+body {
+    font-family: 'Architectsss Daughter', cursive;
+    text-decoration-thickness: 10px;
+}
+.title {
+    text-align: center;
+    padding-top: 5px;
+
+}
+.menu-title {
+    text-align: center;
+}
+.item {
+    background-color: rgba(4, 45, 61, 0.521);
+}
+.item p {
+    padding: 10px;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-4 {
+        width: 50%;
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    
+}
